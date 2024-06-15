@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# inscrire les noms d'utilisateurs a ajouter au lancement du script separés par une virgule si plusieurs utilisateurs 
+
 # Vérifier si l'utilisateur exécutant le script a les droits administratifs
 if [ "$(id -u)" -ne 0 ]; then
     echo "Ce script doit être exécuté en tant que root ou avec sudo."
